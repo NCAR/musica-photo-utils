@@ -7,9 +7,6 @@ module molec_ox_xsect
 
 contains
 
-!> \section arg_table_molec_ox_xsect_init Argument Table
-!! \htmlinclude molec_ox_xsect_init.html
-!!
   subroutine molec_ox_xsect_init( errmsg, errflg )
     use la_srb_mod, only : la_srb_init
 
@@ -20,9 +17,6 @@ contains
 
   end subroutine molec_ox_xsect_init
 
-!> \section arg_table_molec_ox_xsect_run Argument Table
-!! \htmlinclude molec_ox_xsect_run.html
-!!
   subroutine molec_ox_xsect_run( nlyr, zen, alt, temp, press_mid, press_top, o2vmr, dto2, srb_o2_xs, errmsg, errflg )
     use module_xsections, only: o2_xs
     use phot_util_mod, only : sphers, airmas
