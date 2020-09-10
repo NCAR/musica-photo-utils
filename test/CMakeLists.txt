@@ -25,4 +25,7 @@ add_unit_test(wavelength_grid_test)
 add_executable(environ_conditions_test environ_conditions/test.F90)
 add_unit_test(environ_conditions_test)
 
+add_executable(molec_ox_xsect_test molec_ox_xsect/test.F90)
+add_unit_test(molec_ox_xsect_test)
+
 ################################################################################
