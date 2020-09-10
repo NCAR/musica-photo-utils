@@ -19,4 +19,10 @@ endmacro(add_unit_test)
 add_executable(numer_test numer/test.F90)
 add_unit_test(numer_test)
 
+add_executable(wavelength_grid_test wavelength_grid/test.F90)
+add_unit_test(wavelength_grid_test)
+
+add_executable(environ_conditions_test environ_conditions/test.F90)
+add_unit_test(environ_conditions_test)
+
 ################################################################################
